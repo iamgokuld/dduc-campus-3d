@@ -29,6 +29,8 @@ Maps tell you where things are. This tells you where things *are*, from every an
 - **Street-level look:** drop to a 360-degree view and take in the campus from the ground.
 - **Walk around:** use **W A S D** to stroll through the grounds. No queue at the canteen required.
 - **Fly to a building:** double-tap a building and get whisked over to it. No bus pass needed.
+- **On a phone?** There is an on-screen joystick (bottom right) that does what W A S D does, minus the keyboard.
+- **Students:** a crowd of little walking students strolls the loop road. Switch them on in the Simulation menu and slide the count from 0 to 40. They never skip the samosa queue.
 - **Details toggle:** switch labels and info on or off, depending on how much you enjoy reading signs.
 
 ### The pieces of the campus
@@ -39,7 +41,7 @@ Maps tell you where things are. This tells you where things *are*, from every an
 | 4 | Canteen |
 | 5 | Boys hostel |
 | 6 | Girls hostel |
-| 7 | Guard house and ground |
+| 7 | Guard house and ground (with the loop road and trees) |
 
 ---
 
@@ -65,6 +67,11 @@ A single HTML page (`index.html`) that uses [Three.js](https://threejs.org/) to 
 
 - **Easiest:** open the [live site](https://iamgokuld.github.io/dduc-campus-3d/).
 - **Locally:** clone this repo and open `index.html` in any modern browser. Double-clicking it works.
+
+## Credits
+
+- Walking student model: "Cesium Man" from the [Khronos glTF Sample Models](https://github.com/KhronosGroup/glTF-Sample-Models), by Cesium, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- 3D engine: [Three.js](https://threejs.org/).
 
 ---
 
